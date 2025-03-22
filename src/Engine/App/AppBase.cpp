@@ -228,6 +228,7 @@ bool AppBase::onCreate() {
         return false;
     }
 
+    printf("xww AppBase::onCreate\n");
     ServiceProvider::create();
     mIds = new Ids;
     mEnvironment = new Environment;
